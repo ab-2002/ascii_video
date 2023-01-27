@@ -1,10 +1,14 @@
-import os, shutil, time, cv2, winsound
+import os, sys, shutil, time, cv2, winsound
 
 from PIL import Image
 
-PATH = os.path.dirname(os.path.abspath(__file__)) 
 ASCII_CHARS = [" ", ",", ":", ";", "+", "*", "?", "%", "S", "#", "@"]
 CACHED_FRAMES = []
+PATH = ""
+if (getattr(sys, "frozen", False)):
+    PATH = os.path.dirname(sys.executable)
+else:
+    PATH = os.path.dirname(os.path.abspath(__file__)) 
 
 def progress_bar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
