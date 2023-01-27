@@ -13,9 +13,9 @@ Download the repository by opening your cmd and executing this
 ```
 git clone https://github.com/b-aleksa/ascii_video.git
 ```
-### Step - 2: (if missing python)
+### Step - 2: (if missing python):
 Download and install python from their website https://www.python.org/
-### Step - 3: (if missing packages)
+### Step - 3 (if missing packages):
 You can install the OpenCV package by running this in your terminal:
 ```
 pip install opencv-python 
