@@ -2,9 +2,6 @@
 This python script enables you to "convert" any .mp4 video to an ascii video and save it if you want.
 ## Requirements:
 - You need to be running a Windows machine.
-- You need python 3.* installed
-- You need to have the OpenCV package installed (https://pypi.org/project/opencv-python/).
-- You need to have the Pillow package installed (https://pypi.org/project/Pillow/)
 ## How to download:
 You can either download the executable from the releases section
 ```
