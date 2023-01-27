@@ -10,9 +10,6 @@ Here is an example of some random converted animation video.
 
 ## Requirements:
 - You need to be running a Windows machine.
-- You need python 3.* installed
-- You need to have the OpenCV package installed (https://pypi.org/project/opencv-python/).
-- You need to have the Pillow package installed (https://pypi.org/project/Pillow/)
 ## How to download:
 You can either download the executable from the releases section
 ```
